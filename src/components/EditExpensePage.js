@@ -13,7 +13,7 @@ const EditExpensePage = props => {
           props.hisory.push("/");
         }}
       />
-      <button
+       <button
         onClick={() => {
           props.dispatch(removeExpense({ id: props.expense.id }));
           props.hisory.push("/");

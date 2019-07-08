@@ -11,3 +11,4 @@ const ExpenseListItem = ({ description, amount, createdAt }) => (
 );
 
 export default ExpenseListItem;
+
