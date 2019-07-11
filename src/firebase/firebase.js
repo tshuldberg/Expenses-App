@@ -14,21 +14,4 @@ firebase.initializeApp(firebaseConfig);
 
 const database = firebase.database();
 
-datebase.ref().set({
-  name: 'Trey Shuldberg',
-  age: 25,
-  isSingle: false,
-  location: {
-    city: 'Philadelphia',
-    country: 'USA'
-  }
-});
 
-// database.ref().set('This is my data.');
-
-database.ref('age').set(26);
-database.ref('location/city').set('San Diego');
-database.ref('attributes').set({
-  height: 73,
-  weight: 180
-});
